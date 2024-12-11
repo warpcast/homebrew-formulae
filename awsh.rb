@@ -1,11 +1,11 @@
 require 'formula'
 
-AWSH_VERSION = '1.0.0'
+AWSH_VERSION = '1.0.1'
 
 class Awsh < Formula
   homepage 'https://github.com/warpcast/awsh'
   url "https://github.com/warpcast/awsh/releases/download/v#{AWSH_VERSION}/awsh"
-  sha256 "6c77ec1c5c0195905df14d309fa1b53fc226a4432ae82bf6fbb088cbdb60d717"
+  sha256 "7c1256931185643c0458973e113305f725912ef271c2f402a5e28ccfed4f74bc"
 
   depends_on 'awscli'
   depends_on 'fzf'
